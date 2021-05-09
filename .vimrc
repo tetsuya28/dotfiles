@@ -1,10 +1,10 @@
 set number
 set autoindent
-set smartindent
+" set smartindent
 set clipboard+=unnamed
 set cursorline
 set showmatch
-set expandtab
+" set expandtab
 set tabstop=2
 set laststatus=2
 set showmode
@@ -13,7 +13,7 @@ set showmatch
 set cmdheight=2
 set ruler
 set list
-set paste
+" set paste
 
 " スクロール
 set mouse=a
@@ -45,6 +45,7 @@ nnoremap <silent> ;m :Mark<CR>
 nnoremap <silent> ;h :History<CR>
 nnoremap <silent> ;b :Buffers<CR>
 "let g:fzf_preview_window = 'right:60%'
+
 " {}補完
 inoremap { {}<Left>
 inoremap {<Enter> {}<Left><CR><ESC><S-o>
@@ -53,6 +54,7 @@ inoremap (<Enter> ()<Left><CR><ESC><S-o>
 inoremap { {}<LEFT>
 inoremap [ []<LEFT>
 inoremap ( ()<LEFT>
+inoremap < <><LEFT>
 inoremap " ""<LEFT>
 inoremap ' ''<LEFT>
 
